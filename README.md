@@ -12,6 +12,13 @@ After enqueuing a new element behind n old ones, dequeue those n and re-enqueue 
 
 **Complexity:** Push O(n), Pop/Top O(1), O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
